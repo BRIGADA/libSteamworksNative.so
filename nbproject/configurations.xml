@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Исходные файлы"
+                   projectFiles="true">
+      <itemPath>LSW/SteamAPIWrap/Apps.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Cloud.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Friends.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/GameServer.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/GameServerStats.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/HTTP.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Helper.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchMaking.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchMakingServers.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingPingResponse.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingPlayersResponse.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingRulesResponse.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingServerListResponse.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Networking.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Precompiled.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Screenshots.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Services.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/ServicesGameServer.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Singleton.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Stats.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/User.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Utils.cpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/VersionInfo.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Файлы заголовков"
+                   projectFiles="true">
+      <itemPath>LSW/SteamAPIWrap/Apps.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Apps.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/CallbackID.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Cloud.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Cloud.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/ConvertedStructures.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/ErrorCodes.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Friends.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Friends.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/GameServer.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/GameServer.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/GameServerCallbackID.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/GameServerResultID.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/GameServerStats.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/GameServerStats.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/HTTP.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/HTTP.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Helper.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/InteropMain.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/LoadStatus.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Macros.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/ManagedCallback.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchMaking.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchMaking.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchMakingRulesResponse.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchMakingServers.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingPingResponse.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingPingResponse.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingPlayersResponse.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingPlayersResponse.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingRulesResponse.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingServerListResponse.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingServerListResponse.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MatchmakingServers.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/MemoryHelpers.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Networking.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Networking.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/OverlayDialog.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/OverlayDialogToUser.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Precompiled.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/ResultID.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Screenshots.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Screenshots.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Services.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Services.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/ServicesGameServer.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/ServicesGameServer.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Singleton.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Stats.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Stats.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Types.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/User.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/User.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Utils.h</itemPath>
+      <itemPath>LSW/SteamAPIWrap/Utils.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/VersionInfo.hpp</itemPath>
+      <itemPath>LSW/SteamAPIWrap/resource.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Файлы ресурсов"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Файлы тестов"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="x86_64" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>sdk/public/steam/</pElem>
+            <pElem>LSW/ManagedSteam/SharedEnums/</pElem>
+          </incDir>
+          <commandLine>-fexceptions</commandLine>
+          <preprocessorList>
+            <Elem>VERSION_SAFE_STEAM_API_INTERFACES</Elem>
+            <Elem>nullptr=NULL</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_PLATFORM}/${CND_CONF}/libSteamworksNative.${CND_DLIB_EXT}</output>
+          <linkerAddLib>
+            <pElem>sdk/redistributable_bin/linux64</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>\$$ORIGIN</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibLibItem>steam_api</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="LSW/SteamAPIWrap/Apps.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Apps.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Apps.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/CallbackID.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Cloud.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Cloud.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Cloud.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ConvertedStructures.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ErrorCodes.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Friends.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Friends.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Friends.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServerCallbackID.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServerResultID.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServerStats.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServerStats.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServerStats.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/HTTP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/HTTP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/HTTP.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Helper.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/InteropMain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/LoadStatus.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Macros.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ManagedCallback.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMaking.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMaking.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMaking.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMakingRulesResponse.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMakingServers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMakingServers.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPingResponse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPingResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPingResponse.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPlayersResponse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPlayersResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPlayersResponse.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingRulesResponse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingRulesResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingServerListResponse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingServerListResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingServerListResponse.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingServers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MemoryHelpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Networking.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Networking.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Networking.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/OverlayDialog.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/OverlayDialogToUser.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Precompiled.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Precompiled.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ResultID.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Screenshots.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Screenshots.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Screenshots.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Services.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Services.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Services.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ServicesGameServer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ServicesGameServer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ServicesGameServer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Singleton.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Singleton.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Stats.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Stats.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Stats.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/User.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/User.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/User.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Utils.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/VersionInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/VersionInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/resource.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="x86" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>1</architecture>
+          <incDir>
+            <pElem>sdk/public/steam/</pElem>
+            <pElem>LSW/ManagedSteam/SharedEnums/</pElem>
+          </incDir>
+          <commandLine>-fexceptions</commandLine>
+          <preprocessorList>
+            <Elem>VERSION_SAFE_STEAM_API_INTERFACES</Elem>
+            <Elem>nullptr=NULL</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_PLATFORM}/${CND_CONF}/libSteamworksNative.${CND_DLIB_EXT}</output>
+          <linkerAddLib>
+            <pElem>sdk/redistributable_bin/linux32</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>\$$ORIGIN</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibLibItem>steam_api</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="LSW/SteamAPIWrap/Apps.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Apps.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Apps.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/CallbackID.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Cloud.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Cloud.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Cloud.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ConvertedStructures.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ErrorCodes.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Friends.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Friends.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Friends.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServerCallbackID.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServerResultID.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServerStats.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServerStats.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/GameServerStats.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/HTTP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/HTTP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/HTTP.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Helper.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/InteropMain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/LoadStatus.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Macros.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ManagedCallback.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMaking.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMaking.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMaking.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMakingRulesResponse.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMakingServers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchMakingServers.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPingResponse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPingResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPingResponse.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPlayersResponse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPlayersResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingPlayersResponse.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingRulesResponse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingRulesResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingServerListResponse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingServerListResponse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingServerListResponse.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MatchmakingServers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/MemoryHelpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Networking.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Networking.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Networking.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/OverlayDialog.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/OverlayDialogToUser.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Precompiled.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Precompiled.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ResultID.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Screenshots.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Screenshots.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Screenshots.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Services.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Services.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Services.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ServicesGameServer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ServicesGameServer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/ServicesGameServer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Singleton.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Singleton.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Stats.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Stats.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Stats.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/User.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/User.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/User.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/Utils.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/VersionInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/VersionInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LSW/SteamAPIWrap/resource.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
